@@ -4,6 +4,15 @@ hip = float(input('Digite o valor da hipotenusa'))
 
 vh = (cato**2+cata**2)**(1/2)
 vcato = (hip**2-cata**2)**(1/2)
-#vcata = 
+vcata = (hip**2-cato**2)**(1/2)
 
-print ('hipotenusa = {} \ncateto oposto {}'.format(vh, vcato))
+if cato >= 0.001:
+    print(f'Seu cateto oposto é {cato}')
+else:
+    print('Seu cateto oposto é {:.3f}'.format(vcato))
+if cata >= 0.001:
+    print(f'Seu cateto adjacente é {cata}')
+else:
+    print('Seu cateto adjacente é{:.3f}'.format(vcata))
+if hip >= 0.001:
+    print(f'Sua hipotenusa {hip}')
