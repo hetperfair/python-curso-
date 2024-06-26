@@ -1,0 +1,9 @@
+cato = float(input('Digite o cateto oposto'))
+cata = float(input('Digite o cateto Adjacente'))
+hip = float(input('Digite o valor da hipotenusa'))
+
+vh = (cato**2+cata**2)**(1/2)
+vcato = (hip**2-cata**2)**(1/2)
+#vcata = 
+
+print ('hipotenusa = {} \ncateto oposto {}'.format(vh, vcato))
