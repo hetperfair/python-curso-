@@ -1,4 +1,4 @@
-import random
+for random import shuffle
 a1 = input('Digite o nome de um aluno').split(', ' )
 random.shuffle(a1)
 #Esse codigo embaralha uma lista
