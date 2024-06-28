@@ -1,0 +1,5 @@
+import random
+lista = input('Digite o nome de 4 alunos separados por virgulas').split(', ')
+#split, ele guarda varias variaveis separadas por algo, no caso foi a virgula
+sorteio = random.choice(lista)
+print('O escolhido foi {}'.format(sorteio))
