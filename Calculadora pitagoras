@@ -16,3 +16,5 @@ else:
     print('Seu cateto adjacente é{:.3f}'.format(vcata))
 if hip >= 0.001:
     print(f'Sua hipotenusa {hip}')
+else:
+    print('Sua hipotenusa {:.3f}'.format(vh))
