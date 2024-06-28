@@ -1,5 +1,5 @@
 for random import shuffle
 a1 = input('Digite o nome de um aluno').split(', ' )
-random.shuffle(a1)
+shuffle(a1)
 #Esse codigo embaralha uma lista
 print('Embaralho da seguinte forma {}'.format(a1))
