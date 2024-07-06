@@ -1,0 +1,35 @@
+import pygame
+import random
+
+#Tela
+display = pygame.display.set_mode((600, 400))
+
+#Relogio do jogo
+relogio = pygame.time.Clock()
+
+#Cores
+branca = (255, 255, 255)
+preto = (0, 0, 0)
+verde = (0, 200, 0)
+vermelho = (255, 0, 0)
+
+#Parametro da cobrinha
+tamanho_quadrado = 10
+Velocidade_cobra = 15
+
+
+def rodar_jogo():
+    fim_jogo = False
+
+    while not fin_jogo:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                fin_jogo = True
+    pass
+
+#Tela funcionando
+
+
+    
+    display.fill((preto))
+    pygame.display.flip()
