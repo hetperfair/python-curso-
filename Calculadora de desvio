@@ -1,0 +1,26 @@
+#Me de os números e quantos caracteres diferentes tem
+n = [8, 11, 17, 7, 19]
+soma = 0
+for numero in n:
+    soma += numero
+    
+média = soma/len(n)
+print(f'média {média}')
+
+lista_desvios = []
+for numero in n:
+    lista_desvios.append((numero-média)**2)
+
+soma2 = 0
+for lista_desvio in lista_desvios:
+    soma2 += lista_desvio
+média2 = soma2/len(lista_desvios)
+Desvio = média2**(1/2)
+print(f'Desvio padrão {Desvio}')
+
+Len = len(lista_desvios)
+Ba = Len - 1
+média3 = soma2/Ba
+Desvio2 = média3**(1/2)
+print(f'Desvio padrão menos algo {Desvio2}')
+
