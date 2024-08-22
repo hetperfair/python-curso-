@@ -1,5 +1,5 @@
 #Me de os números e quantos caracteres diferentes tem
-n = [8, 11, 17, 7, 19]
+n = [5, 4, 6, 39]
 soma = 0
 for numero in n:
     soma += numero
@@ -16,6 +16,7 @@ for lista_desvio in lista_desvios:
     soma2 += lista_desvio
 média2 = soma2/len(lista_desvios)
 Desvio = média2**(1/2)
+print(f'Variancia {média2}')
 print(f'Desvio padrão {Desvio}')
 
 Len = len(lista_desvios)
