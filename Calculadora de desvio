@@ -1,17 +1,24 @@
-#Me de os números e quantos caracteres diferentes tem
-n = [5, 4, 6, 39]
+#Essa é a lista desejada para o calculo
+n = [8, 11, 17, 7, 19]
+
 soma = 0
+
+#Esse é o comando que pega cada número da lista. O numero é a unidade do n
 for numero in n:
     soma += numero
-    
+
+#O len serve para contar a quantidade de caracteres
 média = soma/len(n)
 print(f'média {média}')
 
+#Aqui é a criação da segunda lista
 lista_desvios = []
 for numero in n:
+    #Esse codigo é o que da valor para a lista
     lista_desvios.append((numero-média)**2)
 
 soma2 = 0
+#Mesmo procedimento do inicio do código
 for lista_desvio in lista_desvios:
     soma2 += lista_desvio
 média2 = soma2/len(lista_desvios)
@@ -24,4 +31,3 @@ Ba = Len - 1
 média3 = soma2/Ba
 Desvio2 = média3**(1/2)
 print(f'Desvio padrão menos algo {Desvio2}')
-
